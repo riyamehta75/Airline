@@ -1,0 +1,537 @@
+*{
+    margin:0px 0px;
+    padding:0px 0px;
+    box-sizing: border-box;
+   
+}
+header{
+    height:900px;
+    background-image: url("download.png");
+    background-size: cover;
+}
+ header h1{
+    font-size:130px;
+    color:black;
+    font-weight: bolder;
+    margin:0px 30px;
+    padding-top:90px;
+}
+.navbar{
+    float:right;
+    margin:60px;
+    /* border:2px solid red; */
+    width:850px;
+    padding-top:0px;
+    position:absolute;
+    top:90px;
+    left:950px;
+}
+.navbar li{
+    float:left;
+    list-style: none;
+    margin:9px;
+}
+.navbar li a{
+    padding: 5px 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 34px;
+    font-weight: bold;
+}
+.navbar li a:hover{
+    color:grey;
+    cursor: pointer;
+}
+.search{
+    float:right;
+    width: 20%;
+    margin-top: 0px;
+    
+}
+svg:not(:root) {
+    overflow: hidden;
+    height: 40px;
+    width: 50px;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    display: inline-block;
+    line-height: 100%;
+    font-size: 1.171875vw;
+}
+.btn{
+    background-color:black;
+    border-radius: 100%;
+}
+.aviation{
+    float: right;
+    margin-right: 700px;
+    margin-top: 80px;
+    width: 110px;
+    font-size: 74px;
+    font-weight: bolder;
+    /* border: 2px solid red; */
+}
+
+.extra{
+    font-size: 50px;
+    /* float: left; */
+    position: absolute;
+    left: -947px;
+    top: 580px;
+    font-size: bolder;
+}
+.buttons{
+    /* margin: 20px; */
+    /* border: 10px; */
+    /* border-radius: 30px; */
+    position: absolute;
+    left: 234px;
+    top: 570px;
+    /* padding: 2px; */
+    /* background-color: black; */
+}
+.aircraft{
+    border-radius: 55.5555555556rem;
+    font-size: 1.171875vw;
+    padding: 1.02vw 1.5vw 1.12vw;
+    cursor: pointer;
+    background-color: #161414;;
+    font-weight: 700;
+    display: inline-block;
+    line-height: 100%;
+    margin:20px;
+    color:white;
+}
+.shared{
+    border-radius: 55.5555555556rem;
+    font-size: 1.171875vw;
+    padding: 1.02vw 1.5vw 1.12vw;
+    cursor: pointer;
+    background-color: #161414;;
+    font-weight: 700;
+    display: inline-block;
+    line-height: 100%;
+    color:white;
+}
+.center{ 
+  float:right;
+  width:1000px;
+  height: 610px;
+  font-size: 80px;
+  color: black;
+  font-weight: bolder;
+  /* border:2px solid red; */
+  padding:3px 3px;
+  font-family: HelveticaNowDisplay,Arial,sans-serif;
+    line-height: 1.6111111111;
+  margin:30px 100px;
+}
+ .sidebar{
+    
+      position:absolute;
+    left:780px;
+    top:1700px; 
+   /* border: 2px solid red; */
+    display: inline-block;
+    color:black;
+    height:700px;
+    width:1000px;
+    font-size: 30px;
+clear:both;
+
+}
+    
+ .sidebar h3{
+    font-size:34px;
+    color:black;
+    font-weight: bold;
+    
+ }
+ .quote{
+    position: absolute;
+    left:600px;
+    top:0px;
+    display: inline-block;
+    width:300px;
+ }
+ .personal{
+    position: absolute;
+    left:600px;
+    top:300px;
+    display: inline-block;
+    width:300px;
+ }
+ .fully{
+    position: absolute;
+    top:300px;
+    left:0px;
+    display: inline-block;
+    width:300px;
+
+ }
+ .flexible{
+    display: inline-block;
+    width:300px;
+ }
+ 
+.destinations{
+    position: absolute;
+    top:2395px;
+    left:30px;
+    font-size:50px;
+    font-weight: bold;
+}
+.mySlides  {display: none;
+   }
+img {vertical-align: middle;
+
+    
+    }
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    
+    position: relative;
+    top: 919px;
+    left: -415px;
+    margin: auto;
+    
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+  .places{
+    position: absolute;
+    top: 2500px;
+    left: 1077px;
+    font-size: 44px;}
+    .manage{
+        width: 100%;
+        display: block;
+        background-color: black;
+        color: white;
+        position: relative;
+        top: 950px;
+        height: 1000px;
+    }
+    
+    .fmanage{
+        position:relative;
+        left:77px;
+        top:20px;
+font-size:100px;
+font-weight: bolder;
+    }
+    .photo img{
+        float:left;
+        width: 845px;
+    height: 999px;
+    }
+    .manage p{
+        
+    font-size: 1.3671875vw;
+    box-sizing: inherit;
+    /* display: inline-block; */
+    position: relative;
+    top: 753px;
+    margin: 6px 75px;
+    color: white;
+    text-align: center;
+    }
+    .Experience{
+        position: relative;
+    top: 1000px;
+    }
+   .Experience h4{
+    font-size:200px;
+
+   }
+   #ex{
+    float: left;
+    margin: 10px;
+    /* border: 2px solid red; */
+    width: 20%;
+    height: 344px;
+    font-size: 34px;
+   }
+   .properties{
+    float:right;
+    /* border:2px solid red; */
+    width: 1300px;
+    height: 500px;
+    margin-right: 20px;
+    font-size: 26px;
+   }
+   .properties h3{
+    font-size:34px;
+    color:black;
+    font-weight: bold;
+    
+ }
+ .exclusive{
+    position: relative;
+    left: 247px;
+    top: 15px;
+    display: inline-block;
+    width: 327px;
+ }
+ .care{
+    position: absolute;
+    left: 1195px;
+    top: 755px;
+    display: inline-block;
+    width: 326px;
+ }
+ .CO2{
+    position: absolute;
+    top: 764px;
+    left: 592px;
+    display: inline-block;
+    width: 365px;
+ }
+ .membership{
+    display: inline-block;
+    width: 364px;
+    position: relative;
+    top: -44px;
+    left: 12px;}
+   
+    h5{
+        text-align: center;
+    font-size: 70px;
+    font-weight: bolder;
+    position: relative;
+    top: 165px;}
+    /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    position: relative;
+    top:150px;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .end{
+    /* border: 2px solid red; */
+    width: 1897px;
+    height: 780;
+    text-align: center;
+    position: relative;
+    top: 1096px;
+    height: 614px;
+    background-image: url("https://t4.ftcdn.net/jpg/03/16/36/59/360_F_316365913_WKVKZW7gzsqqhkx4PgGyu0rArj5GykHK.jpg");
+    background-size: cover;
+  }
+  #end1{
+    position: relative;
+    top: 192px;
+    left: 577px;
+    /* border: 2px solid red; */
+    font-size: 106px;
+    width: 983px;
+  }
+  footer{
+    background-color: black;
+    height: 800px;
+    /* border: 2px solid red; */
+    position: relative;
+    top: 1096px;
+}
+
+
+  .name{
+    color:white;
+    font-size: 56px;
+    display:inline-block;
+    margin:5px 20px;
+    padding:3px 3px;
+    
+    /* border:2px solid red; */
+}
+.follow{
+    margin:11px 20px;
+    padding:3px 3px;
+}
+
+.follow h1{
+    font-size: 34px;
+    display:inline-block;
+    color: white;
+}
+.follow a{
+  display:inline-block;
+  
+}
+.follow a img{
+    
+    width:40px;
+  margin:3px 3px;
+  padding:3px 3px;
+
+}
+ footer .main{
+    width:730px;
+    /* border:2px solid red; */
+    height:350px;
+     
+    position:absolute;
+    left:800px;
+    top:70px; 
+   
+    display: inline-block;
+    color:white;
+    height:fit-content;
+    font-size: 30px;
+    
+}
+.main h2{
+    font-size: 34px;
+    font-weight: 20px;
+}
+#account{
+    position: absolute;
+    left: 410px;
+    bottom: -41px;
+
+}
+#demand{
+    position: absolute;
+    left: 410px;
+    bottom: 106px;
+}
+
+
+#company{
+    position:relative;
+    bottom:-36px;
+}
+.main a{
+    color:whitesmoke;
+    font-size:24px;
+}
+.main a:hover{
+    color:rgb(127, 119, 119);
+    cursor: pointer;
+}
+.policy{
+    position:absolute;
+    left:700px;
+    bottom:350px;
+    font-size:24px;
+
+}
+.policy li{
+    float:left;
+    list-style:none;
+    margin:13px;
+}
+.policy li a{
+    padding:3px 3px;
+    color:white;
+    font-size:20px;
+    text-decoration:none ;
+}
+.policy a:hover{
+    color:rgb(127, 119, 119);
+    cursor: pointer;
+}
+.content{
+    position:absolute;
+    left:700px;
+    bottom:75px;
+    color:white;
+    font-size: 24px;
+    margin:3px;
+
+}
+.copyright{
+    position:absolute;
+    left:25px;
+    bottom:130px;
+    color:white;
+    font-size: 14px;
+
+}
